@@ -74,7 +74,6 @@
   color: var(--text-muted);
   transition: border-color 0.2s, color 0.2s;
   cursor: pointer;
-  clip-path: polygon(0 0, calc(100% - 6px) 0, 100% 6px, 100% 100%, 6px 100%, 0 calc(100% - 6px));
 }
 .cart-btn:hover { border-color: var(--accent); color: var(--accent); }
 .cart-count {
