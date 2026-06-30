@@ -6,15 +6,25 @@ export function useScrollReveal(options = {}) {
   useEffect(() => {
     const el = ref.current
     if (!el) return
+
+    const reveal = (target) => {
+      target.classList.add('revealed')
+      // Cascade to all reveal children inside this element
+      target.querySelectorAll('.reveal, .reveal-left, .reveal-right, .reveal-scale').forEach(child => {
+        child.classList.add('revealed')
+      })
+    }
+
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
-          el.classList.add('revealed')
+          reveal(el)
           observer.unobserve(el)
         }
       },
-      { threshold: 0.15, ...options }
+      { threshold: 0.08, ...options }
     )
+
     observer.observe(el)
     return () => observer.disconnect()
   }, [])
