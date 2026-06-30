@@ -139,14 +139,14 @@ export default function Home() {
             <div className="valve-proof-images reveal reveal-right">
               <div className="valve-pair">
                 <div className="valve-img-wrap valve-before">
-                  <img src="/images/dirty.png" alt="Carbon-caked intake valve without X3 treatment" />
+                  <img loading="lazy" src="/images/dirty.png" alt="Carbon-caked intake valve without X3 treatment" />
                   <div className="valve-label">Without X3</div>
                 </div>
                 <div className="valve-divider">
                   <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
                 </div>
                 <div className="valve-img-wrap valve-after">
-                  <img src="/images/clean.png" alt="Clean intake valve after X3 treatment" />
+                  <img loading="lazy" src="/images/clean.png" alt="Clean intake valve after X3 treatment" />
                   <div className="valve-label valve-label-clean">With X3</div>
                 </div>
               </div>

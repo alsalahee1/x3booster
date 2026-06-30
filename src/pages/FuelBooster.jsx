@@ -81,7 +81,7 @@ export default function FuelBooster() {
       <section className="pd-product-shot">
         <div className="container pd-shot-grid">
           <div className="pd-shot-img-wrap">
-            <img src="/images/product-11.jpg" alt="X3 Fuel Booster being poured directly into the fuel tank" className="pd-shot-img" style={{ objectPosition: 'center top' }} />
+            <img src="/images/product-11.jpg" alt="X3 Fuel Booster being poured directly into the fuel tank" className="pd-shot-img" loading="lazy" style={{ objectPosition: 'center top' }} />
           </div>
           <div className="pd-shot-content">
             <div className="section-label">The Product</div>
@@ -171,7 +171,7 @@ export default function FuelBooster() {
 
       {/* ── Cross-sell ── */}
       <section className="pd-crosssell">
-        <img src="/images/oil-garage.jpg" alt="" className="crosssell-bg-img" />
+        <img src="/images/oil-garage.jpg" alt="" className="crosssell-bg-img" loading="lazy" />
         <div className="crosssell-overlay" />
         <div className="container pd-crosssell-inner">
           <div>

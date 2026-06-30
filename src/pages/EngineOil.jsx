@@ -67,7 +67,7 @@ export default function EngineOil() {
       <section className="pd-product-shot">
         <div className="container pd-shot-grid">
           <div className="pd-shot-img-wrap">
-            <img src="/images/oil-bottle.jpg" alt="X3 Engine Oil Booster bottles" className="pd-shot-img" />
+            <img src="/images/oil-bottle.jpg" alt="X3 Engine Oil Booster bottles" className="pd-shot-img" loading="lazy" />
           </div>
           <div className="pd-shot-content">
             <div className="section-label">The Product</div>
@@ -90,7 +90,7 @@ export default function EngineOil() {
       {/* ── Garage Shot ── */}
       <section className="pd-wide-shot">
         <div className="container">
-          <img src="/images/oil-garage.jpg" alt="X3 Engine Oil Booster in use" className="wide-shot-img" />
+          <img src="/images/oil-garage.jpg" alt="X3 Engine Oil Booster in use" className="wide-shot-img" loading="lazy" />
           <div className="wide-shot-caption">
             Trusted by workshops and drivers worldwide — X3 Engine Oil Booster with the Guaranteed Money-Back seal.
           </div>
@@ -135,7 +135,7 @@ export default function EngineOil() {
 
       {/* ── Cross-sell ── */}
       <section className="pd-crosssell">
-        <img src="/images/fuel-station.jpg" alt="" className="crosssell-bg-img" />
+        <img src="/images/fuel-station.jpg" alt="" className="crosssell-bg-img" loading="lazy" />
         <div className="crosssell-overlay" />
         <div className="container pd-crosssell-inner">
           <div>
